@@ -15,7 +15,7 @@ import prueba.avla.com.services.IproductService;
 import prueba.avla.com.web.model.ProductPojo;
 
 @RestController
-@RequestMapping("/api/product/")
+@RequestMapping("/product")
 public class ProductController {
 
 	private final IproductService productService;
