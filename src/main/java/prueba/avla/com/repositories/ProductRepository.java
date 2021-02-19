@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import prueba.avla.com.domain.Product;
 import prueba.avla.com.domain.ProductInventory;
 
-public interface ProductInventoryRepository extends JpaRepository<ProductInventory, Long>{
+public interface ProductRepository extends JpaRepository<Product, Long>{
 
-	List<ProductInventory> findAllByProductId(Long id);
+	List<Product> findAllByProductId(Long id);
 	
 }
