@@ -10,9 +10,7 @@ import javax.persistence.Id;
 @Entity
 public class BaseEntity {
 	
-	public BaseEntity() {
-		
-	}
+	public BaseEntity() {}
 	
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)

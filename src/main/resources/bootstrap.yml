@@ -1,6 +1,16 @@
 spring:
   application:
     name: api
-    
-    
-    
+# de la web
+  cloud:
+    config:
+      uri: http://localhost:8882
+      #username: user
+      #password: password        
+      fail-fast: true
+  main:
+    allow-bean-definition-overriding: true
+  jackson:
+    time-zone: America/Lima
+      
+
